@@ -1,0 +1,13 @@
+.container-fluid {
+
+    padding: 0;
+
+}
+
+.nav_top {
+    height: 25px;
+    background-color: gray;
+}
+p#_title{
+    color: white;
+}

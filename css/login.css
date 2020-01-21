@@ -1,0 +1,90 @@
+
+
+
+.card{
+    height: 370px;
+    margin-top: 5%;
+    margin-bottom: auto;
+    width: 400px;
+    background-color: rgba(0,0,0,0.7) !important;
+    animation-name: zoom;
+    animation-duration: 0.3s;
+    -webkit-animation-iteration-count: 1;
+    -moz-animation-iteration-count: 1;
+    -o-animation-iteration-count: 1;
+    animation-iteration-count: 1;
+    transform: scale(1);
+    -webkit-transition: all linear  0.3s;
+    -moz-transition: all linear  0.3s;
+    -ms-transition: all linear  0.3s;
+    -o-transition: all linear  0.3s;
+    transition: all linear  0.3s;
+}
+@keyframes zoom {
+    from{
+        -webkit-transform: scale(.5);
+        -moz-transform: scale(.5);
+        -ms-transform: scale(.5);
+        -o-transform: scale(.5);
+        transform: scale(.5);
+    }to{
+         transform: scale(1);
+     }
+
+}
+
+
+
+.card-header h3{
+    color: white;
+}
+
+.social_icon{
+    position: absolute;
+    right: 20px;
+    top: -45px;
+}
+
+.input-group-prepend span{
+    width: 50px;
+    background-color: cyan;
+    color: black;
+    border:0 !important;
+}
+
+input:focus{
+    outline: 0 0 0 0  !important;
+    box-shadow: 0 0 0 0 !important;
+
+}
+
+.remember{
+    color: white;
+}
+
+.remember input
+{
+    width: 20px;
+    height: 20px;
+    margin-left: 15px;
+    margin-right: 5px;
+}
+
+.login_btn{
+    color: black;
+    background-color: cyan;
+    width: 100px;
+}
+
+.login_btn:hover{
+    color: black;
+    background-color: white;
+}
+
+.links{
+    color: white;
+}
+
+.links a{
+    margin-left: 4px;
+}

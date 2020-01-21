@@ -1,0 +1,30 @@
+Options -Indexes
+# Turn Rewrite Engine On
+RewriteEngine on
+
+
+RewriteRule ^signup$ php/signup.php [NC,L]
+RewriteRule ^login$ php/login.php [NC,L]
+RewriteRule ^admin$ php/admin.php [NC,L]
+RewriteRule ^seller$ php/seller.php [NC,L]
+RewriteRule ^new_s$ php/new_seller.php [NC,L]
+RewriteRule ^reset$ php/forgot_password.php [NC,L]
+RewriteRule ^aboutus$ php/about_us.php [NC,L]
+RewriteRule ^profile$ php/my_profile.php [NC,L]
+RewriteRule ^addresses$ php/saved_address.php [NC,L]
+RewriteRule ^save_a$ php/save_new_user_address.php [NC,L]
+RewriteRule ^update_a$ php/update_add.php [NC,L]
+RewriteRule ^sellerdashboard$ php/seller_dashboard.php [NC,L]
+RewriteRule ^cart$ php/cart.php [NC,L]
+RewriteRule ^payment$ php/payment.php [NC,L]
+RewriteRule ^detail_view$ php/detail_view.php [NC,L]
+RewriteRule ^order$ php/my_order.php [NC,L]
+RewriteRule ^resetuser$ php/resetuser.php [NC,L]
+RewriteRule ^outofstockproducts$ php/sellor_out_of_stock_products.php [NC,L]
+RewriteRule ^product_ordered$ php/Product_ordered.php [NC,L]
+RewriteRule ^update_seller$ php/update_seller.php [NC,L]
+RewriteRule ^resetseller$ php/resetseller.php [NC,L]
+RewriteRule ^view$ php/view_more.php [NC,L]
+RewriteRule ^contactus$ php/contact_us.php [NC,L]
+RewriteRule ^search$ php/search.php [NC,L]
+RewriteRule ^buy_printed php/buy_printed_tshit.php [NC,L]
